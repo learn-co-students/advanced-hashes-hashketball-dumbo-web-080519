@@ -261,7 +261,6 @@ def long_name_steals_a_ton?
   longest_name = ""
   steals = 0
   game_hash.each do |location, team_data|
-    #binding.pry
     team_data[:players].each do |player_stats|
       player_stats.each do |specific_name, specific_stats|
         if specific_name.length > longest_name.length
