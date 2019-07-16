@@ -237,7 +237,7 @@ def winning_team
     elsif away_score > home_score
       return game_hash[:away][:team_name]
     else
-      puts "Tie Game" # Just added this for the hell of it .
+      puts "Tie Game" # Just added this for the hell of it for cases where both teams end up with the same scores .
     end
   end
 end
