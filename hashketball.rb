@@ -1,9 +1,8 @@
 require "pry"
 
 def game_hash
-game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
-  :home =>      # game_hash[:home] - > is a hash, keys are -> :team_name,             # :colors, :players
-                # question? why game_hash.keys.class => # Array ???
+game_hash = {   
+  :home =>                   
   {
     :team_name => "Brooklyn Nets",
     :colors => ["Black", "White"],
