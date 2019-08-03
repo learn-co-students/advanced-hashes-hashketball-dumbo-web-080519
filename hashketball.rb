@@ -17,7 +17,7 @@ game_hash = {
         :assists => 12,
         :steals => 3,
         :blocks => 1,
-        :slum_dunks => 1
+        :slam_dunks => 1
       },
       {
         :name => "Reggie Evans",
@@ -28,7 +28,7 @@ game_hash = {
         :assists => 12,
         :steals => 12,
         :blocks => 12,
-        :slum_dunks => 7
+        :slam_dunks => 7
       },
       {
         :name => "Brook Lopez",
@@ -39,7 +39,7 @@ game_hash = {
         :assists => 10,
         :steals => 3,
         :blocks => 1,
-        :slum_dunks => 15
+        :slam_dunks => 15
       },
       {
         :name => "Mason Plumlee",
@@ -50,7 +50,7 @@ game_hash = {
         :assists => 6,
         :steals => 3,
         :blocks => 8,
-        :slum_dunks => 5
+        :slam_dunks => 5
       },
       {
         :name => "Jason Terry",
@@ -61,7 +61,7 @@ game_hash = {
         :assists => 2,
         :steals => 4,
         :blocks => 11,
-        :slum_dunks => 1
+        :slam_dunks => 1
       }
     ]
   },
@@ -79,7 +79,7 @@ game_hash = {
         :assists => 1,
         :steals => 2,
         :blocks => 7,
-        :slum_dunks => 2
+        :slam_dunks => 2
       },
       {
         :name => "Bismack Biyombo",
@@ -90,7 +90,7 @@ game_hash = {
         :assists => 7,
         :steals => 22,
         :blocks => 15,
-        :slum_dunks => 10
+        :slam_dunks => 10
       },
       {
         :name => "DeSagna Diop",
@@ -101,7 +101,7 @@ game_hash = {
         :assists => 12,
         :steals => 4,
         :blocks => 5,
-        :slum_dunks => 5
+        :slam_dunks => 5
       },
       {
         :name => "Ben Gordon",
@@ -112,7 +112,7 @@ game_hash = {
         :assists => 2,
         :steals => 1,
         :blocks => 1,
-        :slum_dunks => 0
+        :slam_dunks => 0
       },
       {
         :name => "Kemba Walker",
@@ -123,7 +123,7 @@ game_hash = {
         :assists => 12,
         :steals => 7,
         :blocks => 5,
-        :slum_dunks => 12
+        :slam_dunks => 12
       }
     ]
   }
