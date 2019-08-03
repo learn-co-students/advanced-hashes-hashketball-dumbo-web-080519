@@ -18,7 +18,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 12,
         :steals => 3,
         :blocks => 1,
-        :Slum_dunks => 1
+        :slum_dunks => 1
       },
       {
         :name => "Reggie Evans",
@@ -29,7 +29,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 12,
         :steals => 12,
         :blocks => 12,
-        :Slum_dunks => 7
+        :slum_dunks => 7
       },
       {
         :name => "Brook Lopez",
@@ -40,7 +40,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 10,
         :steals => 3,
         :blocks => 1,
-        :Slum_dunks => 15
+        :slum_dunks => 15
       },
       {
         :name => "Mason Plumlee",
@@ -51,7 +51,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 6,
         :steals => 3,
         :blocks => 8,
-        :Slum_dunks => 5
+        :slum_dunks => 5
       },
       {
         :name => "Jason Terry",
@@ -62,7 +62,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 2,
         :steals => 4,
         :blocks => 11,
-        :Slum_dunks => 1
+        :slum_dunks => 1
       }
     ]
   },
@@ -80,7 +80,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 1,
         :steals => 2,
         :blocks => 7,
-        :Slum_dunks => 2
+        :slum_dunks => 2
       },
       {
         :name => "Bismack Biyombo",
@@ -91,7 +91,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 7,
         :steals => 22,
         :blocks => 15,
-        :Slum_dunks => 10
+        :slum_dunks => 10
       },
       {
         :name => "DeSagna Diop",
@@ -102,7 +102,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 12,
         :steals => 4,
         :blocks => 5,
-        :Slum_dunks => 5
+        :slum_dunks => 5
       },
       {
         :name => "Ben Gordon",
@@ -113,7 +113,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 2,
         :steals => 1,
         :blocks => 1,
-        :Slum_dunks => 0
+        :slum_dunks => 0
       },
       {
         :name => "Kemba Walker",
@@ -124,7 +124,7 @@ game_hash = {   # -> game_hash is a hash, keys are -> :home and :away
         :assists => 12,
         :steals => 7,
         :blocks => 5,
-        :Slum_dunks => 12
+        :slum_dunks => 12
       }
     ]
   }
@@ -187,13 +187,13 @@ def player_stats(player_name)
  players_array.map do |player|
    if player[:name] == player_name
       player.shift
-     return player
+      return player
    end
  end
 end
 
 
-p player_stats("Alan Anderson")
+p player_stats("Jeff Adrien")
 
 def big_shoe_rebounds
   players_array = game_hash[:home][:players] + game_hash[:away][:players]
